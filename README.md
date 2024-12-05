@@ -1,10 +1,10 @@
 curl https://api.commerce.coinbase.com/checkouts \
--H "X-CC-Api-Key: 746e77e5-c388-48b5-9865-9b0c6adc1959
+-H "X-CC-Api-Key: 95933bf8-ec6a-4273-882d-d25cf8b0729d
 
 
 curl -X POScurl -X POST https://api.commerce.coinbase.com/charges/ \
 -H "Content-Type: application/json" \receives 
--H "X-CC-Api-Key: YOUR_API_KEY" \746e77e5-c388-48b5-9865-9b0c6adc1959
+-H "X-CC-Api-Key: YOUR_API_KEY" \95933bf8-ec6a-4273-882d-d25cf8b0729d
 -d '{
       "name": "The Human Fund",
       "description": "Money for news time",
@@ -15,5 +15,5 @@ curl -X POScurl -X POST https://api.commerce.coinbase.com/charges/ \
       }
     }'
     curl https://api.commerce.coinbase.com/charges/<CHARGE_UUID> \
--H "X-CC-Api-Key: 746e77e5-c388-48b5-9865-9b0c6adc1959
-
+-H "X-CC-Api-Key: 
+95933bf8-ec6a-4273-882d-d25cf8b0729d
